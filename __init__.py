@@ -159,7 +159,7 @@ def decrypt(data):
                 letter = "3"
             elif encoded_letter == "54k":
                 letter = "4"
-            elif encoded_letter == "fs8":
+            elif encoded_letter == "f8s":
                 letter = "5"
             elif encoded_letter == "iuh":
                 letter = "6"
