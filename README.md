@@ -1,13 +1,21 @@
 # Description
 Speedwagon Algorithm is a basic and easy to use/implement asymmetric encryption algorithm includes methods named *key_part1()*, *key_part2()*, *encrypt()*,*decrypt()*, *keyed_encrypt()* and *keyed_decrypt()*.
 
-*key_part1()* generates 32-bit key with a specific type.
-*key_part2()* generates 32-bit key with another specific type.
-*key_part1()* and *key_part2()* became a main key by concatenation.
-*encrypt()* encrypts the data given by parameter according to Speedwagon Algorithm without any key.
-*decrypt()* decrypts data which is encrypted by Speedwagon Algorithm without any key.
-*keyed_encrypt()* encrypts the data given by parameter according to Speedwagon Algorithm with a main key.
-*keyed_decrypt()* decrypts data which is encrypted by Speedwagon Algorithm with a main key.
+## Method Explanations
+
+    key_part1() generates 32-bit key with a specific type. 
+
+    key_part2() generates 32-bit key with another specific type.
+
+    key_part1() and key_part2() became a main key by concatenation.
+
+    encrypt() encrypts the data given by parameter according to Speedwagon Algorithm without any key.
+
+    decrypt() decrypts data which is encrypted by Speedwagon Algorithm without any key.
+
+    keyed_encrypt() encrypts the data given by parameter according to Speedwagon Algorithm with a main key.
+
+    keyed_decrypt() decrypts data which is encrypted by Speedwagon Algorithm with a main key.
 
 
 ## Installation
