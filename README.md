@@ -54,3 +54,4 @@ decrypted_data2 = keyed_decrypt(encrypted_data2,main_key)
     
 ## Notice
 Encrypting your sensitive data multiple times is recommended by developer.
+This algorithm can encrypt letters and numbers in just English alphabet. If another characters - letters should be encrypted in a scenerio, do not use this algorithm to this scenerio
